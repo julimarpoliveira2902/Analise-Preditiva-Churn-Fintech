@@ -17,7 +17,7 @@ Após a validação inicial do modelo, o projeto passou por uma esteira de **Mel
 Para prever o comportamento dos clientes, o algoritmo Random Forest apresentou resultados consolidados e validados:
 
 * **Acurácia Geral:** 86,45% (Alta capacidade de classificação geral).
-* **F1-Score (Classe Churn):** [0.57] — Esta métrica garante que o modelo é estatisticamente assertivo em detectar a evasão em uma base desbalanceada.
+* **F1-Score (Classe Churn):** 57% — Esta métrica garante que o modelo é estatisticamente assertivo em detectar a evasão em uma base desbalanceada.
 * **Precisão:** 75% (Quando o modelo sinaliza um risco de saída, ele está correto na grande maioria das vezes, otimizando o orçamento de marketing de retenção).
 
 [[Link para o Dashboard Interativo aqui](https://datastudio.google.com/s/qmsBnA-osJM)] 
