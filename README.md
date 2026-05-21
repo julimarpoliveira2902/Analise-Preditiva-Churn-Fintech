@@ -1,37 +1,23 @@
-Painel Estratégico de Retenção: Análise Preditiva de Churn - PicPay 📱📊
+# Relatório Final de Insights: Estratégia de Retenção PicPay
 
-📋 Sobre o Projeto
+## 📌 Sumário Executivo
+Este projeto consistiu no desenvolvimento de um ecossistema de análise preditiva para combater o Churn. Utilizando técnicas avançadas de Ciência de Dados e Visualização, transformando dados brutos em um painel estratégico capaz de orientar a tomada de decisão da alta gestão.
 
-Este projeto foi desenvolvido como parte da transição de carreira para a área de Análise de Dados. O objetivo foi criar uma solução de ponta a ponta para prever a evasão de clientes (Churn) em uma fintech, utilizando o contexto de negócios do PicPay.
+---
 
-A solução integra o processamento de dados em Python, modelagem de Machine Learning e a criação de um Dashboard executivo para suporte à decisão.
+## 🚀 Evolução do Projeto (Versão 2.0)
+Após a validação inicial do modelo, o projeto passou por uma esteira de **Melhoria Contínua** baseada em revisões técnicas de negócios para problemas de Churn desbalanceado. Foram implementadas as seguintes evoluções:
 
-🛠️ Tecnologias Utilizadas
+1. **Matriz de Confusão Visual:** Implementada para avaliar a distribuição de acertos entre clientes retidos e em evasão, mitigando o risco de falsos negativos.
+2. **F1-Score como Métrica Primária:** Como bases de Churn são historicamente desbalanceadas, a análise foi blindada utilizando o F1-Score (média harmônica entre precisão e recall) na classe de evasão, garantindo a real eficácia do modelo em identificar quem vai deixar a plataforma.
 
-Linguagem: Python.
+---
 
-Bibliotecas: Pandas, Scikit-Learn, Matplotlib e Plotly.
+## 📊 Desempenho do Modelo Preditivo
+Para prever o comportamento dos clientes, o algoritmo Random Forest apresentou resultados consolidados e validados:
 
-Ambiente: Google Colab.
-
-Visualização: Looker Studio.
-
-🧠 Modelagem de Machine Learning
-
-Para a previsão de Churn, foi implementado o algoritmo Random Forest, alcançando os seguintes resultados:
-
-Acurácia: 86,45%.
-
-Taxa de Churn na Base: 19,65%.
-
-Insight Principal: O modelo identificou que o engajamento do cliente (Membro Ativo) é o fator mais determinante para a retenção.
-
-📈 Dashboard e Insights de Negócio
-
-O Dashboard interativo foi estruturado para destacar gargalos críticos:
-
-Distribuição por Faixa Etária: Identificado um ponto crítico de evasão entre clientes de 40 a 49 anos.
-
-Status de Engajamento: Demonstração visual de que clientes inativos possuem a maior propensão ao churn.
+* **Acurácia Geral:** 86,45% (Alta capacidade de classificação geral).
+* **F1-Score (Classe Churn):** [0.57] — Esta métrica garante que o modelo é estatisticamente assertivo em detectar a evasão em uma base desbalanceada.
+* **Precisão:** 75% (Quando o modelo sinaliza um risco de saída, ele está correto na grande maioria das vezes, otimizando o orçamento de marketing de retenção).
 
 [[Link para o Dashboard Interativo aqui](https://datastudio.google.com/s/qmsBnA-osJM)] 
