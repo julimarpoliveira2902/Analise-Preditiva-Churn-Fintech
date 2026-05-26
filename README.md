@@ -28,6 +28,6 @@ Retorno sobre o Negócio (Impacto Financeiro Estimado): Com uma assertividade de
 ![Dashboard Looker Studio](images/Painel_Estratégico_de_Retenção__Análise_Preditiva_de_Churn_-_PicPay.jpg)
 
 ### 📉 Matriz de Confusão (Validação do Modelo)
-![Matriz de Confusão](images/Matriz Confusão.png)
+![Matriz de Confusão](images/matriz_confusão.png)
 
 [[Link para o Dashboard Interativo aqui](https://datastudio.google.com/reporting/ecf9e5ea-abf6-40c7-8c5e-f16eda6bceac)] 
