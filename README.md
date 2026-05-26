@@ -25,7 +25,7 @@ Eficiência de Classificação (Acurácia de 86,45%): Garantia de um pipeline es
 Retorno sobre o Negócio (Impacto Financeiro Estimado): Com uma assertividade de 57% na detecção de churn, a equipe de marketing pode direcionar campanhas de retenção cirúrgicas. Assumindo o custo de retenção de um cliente versus o seu LTV (Lifetime Value), o modelo permite blindar a receita recorrente da carteira, reduzindo o CAC (Custo de Aquisição de Clientes) ao focar na fidelização ativa dos usuários inativos.
 
 ### 📊 Visualização do Dashboard Executivo
-![Dashboard Looker Studio](images/dashboard_looker.png)
+![Dashboard Looker Studio](images/Painel_Estratégico_de_Retenção__Análise_Preditiva_de_Churn_-_PicPay.jpg)
 
 ### 📉 Matriz de Confusão (Validação do Modelo)
 ![Matriz de Confusão](images/matriz_confusao.png)
