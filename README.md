@@ -16,8 +16,12 @@ Após a validação inicial do modelo, o projeto passou por uma esteira de **Mel
 ## 📊 Desempenho do Modelo Preditivo
 Para prever o comportamento dos clientes, o algoritmo Random Forest apresentou resultados consolidados e validados:
 
-* **Acurácia Geral:** 86,45% (Alta capacidade de classificação geral).
-* **F1-Score (Classe Churn):** 57% — Esta métrica garante que o modelo é estatisticamente assertivo em detectar a evasão em uma base desbalanceada.
-* **Precisão:** 75% (Quando o modelo sinaliza um risco de saída, ele está correto na grande maioria das vezes, otimizando o orçamento de marketing de retenção).
+📊 Resultados Técnicos e Impacto de Negócio:
+
+Assertividade Estratégica (F1-Score de 57%): Em uma base historicamente desbalanceada, o modelo equilibra Precisão e Recall, sendo altamente eficaz em mapear os clientes com real risco de evasão.
+
+Eficiência de Classificação (Acurácia de 86,45%): Garantia de um pipeline estável para a tomada de decisão.
+
+Retorno sobre o Negócio (Impacto Financeiro Estimado): Com uma assertividade de 57% na detecção de churn, a equipe de marketing pode direcionar campanhas de retenção cirúrgicas. Assumindo o custo de retenção de um cliente versus o seu LTV (Lifetime Value), o modelo permite blindar a receita recorrente da carteira, reduzindo o CAC (Custo de Aquisição de Clientes) ao focar na fidelização ativa dos usuários inativos.
 
 [[Link para o Dashboard Interativo aqui](https://datastudio.google.com/reporting/ecf9e5ea-abf6-40c7-8c5e-f16eda6bceac)] 
